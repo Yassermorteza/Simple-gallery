@@ -46,10 +46,10 @@ $(document).ready(function(){
           $('.left').show();
           if(num1 === 5){
             $('.right').hide();
-            $('li').eq(num1-1).removeClass('btn1');
+            $('li').removeClass('btn1');
             $('li').eq(num1).addClass('btn1');
           }else{
-            $('li').eq(num1-1).removeClass('btn1');
+            $('li').removeClass('btn1');
             $('li').eq(num1).addClass('btn1');
           }
           title.text(url1.title);
@@ -64,10 +64,10 @@ $(document).ready(function(){
 
               if (num1 === 0){
                   $('.left').hide();
-                  $('li').eq(num1+1).removeClass('btn1');
+                  $('li').removeClass('btn1');
                   $('li').eq(num1).addClass('btn1');
               }else{
-                  $('li').eq(num1+1).removeClass('btn1');
+                  $('li').removeClass('btn1');
                   $('li').eq(num1).addClass('btn1');
               }
 
